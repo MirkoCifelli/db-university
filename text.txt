@@ -21,7 +21,7 @@ FROM students
 laurea (286)
 SELECT * 
 FROM `courses` 
-WHERE period LIKE 'I_s%' AND YEAR = 1;
+WHERE period LIKE 'I semestre' AND YEAR = 1;
 
 
 5. Selezionare tutti gli appelli d'esame che avvengono nel pomeriggio (dopo le 14) del
